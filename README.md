@@ -34,20 +34,4 @@ GitHub Actions – CI/CD for testing & builds
 pytest – unit testing (training + API)
 
 
-📂 Project Structure
-wine-quality-mlops/
-│── data/                     # raw dataset (auto-downloaded, not stored in repo)
-│── artifacts/                # trained model + feature order
-│── src/
-│   ├── train.py               # training pipeline
-│   ├── predict.py             # local inference helper
-│── app/
-│   └── main.py                # FastAPI service
-│── tests/
-│   ├── test_training.py       # unit tests for training
-│   └── test_api.py            # API tests
-│── requirements.txt
-│── Dockerfile
-│── .github/workflows/ci.yml   # CI/CD pipeline
-│── README.md
 
