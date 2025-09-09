@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.env
+.venv
+
+# Jupyter/Colab
+*.ipynb_checkpoints/
+*.log
+
+# Data & model artifacts
+artifacts/
+data/
+mlruns/
+
+# ngrok config
+.ngrok2/
+*.yml
+/config/
