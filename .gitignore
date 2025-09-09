@@ -1,21 +1,9 @@
-# Python cache
+artifacts/
 __pycache__/
 *.pyc
-
-# Virtual environments
+*.pkl
+*.joblib
 .env
-.venv
-
-# Jupyter/Colab
-*.ipynb_checkpoints/
-*.log
-
-# Data & model artifacts
-artifacts/
-data/
+.venv/
+server.log
 mlruns/
-
-# ngrok config
-.ngrok2/
-*.yml
-/config/
