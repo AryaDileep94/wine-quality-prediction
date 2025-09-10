@@ -1,5 +1,9 @@
 # 🍷 Wine Quality Prediction – MLOps Project
 
+[![CI Pipeline](https://github.com/AryaDileep94/wine-quality-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/AryaDileep94/wine-quality-prediction/actions/workflows/ci.yml)
+
+An end-to-end MLOps project using FastAPI, MLflow, pytest, and GitHub Actions 🚀
+
 This project demonstrates how to take a simple ML problem (wine quality prediction) and make it **production-ready** with MLOps best practices.  
 Instead of focusing only on accuracy, the emphasis here is on **reproducibility, testing, deployment, and automation**.
 
